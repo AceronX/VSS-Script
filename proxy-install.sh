@@ -33,7 +33,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const cors = require('cors');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // Get backend URL from environment variable or use default
 const BACKEND_URL = 'http://localhost:8000';
